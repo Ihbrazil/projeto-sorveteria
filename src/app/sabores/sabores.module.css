@@ -1,0 +1,104 @@
+.secao_banner {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../public/banner_sabores.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(249, 219, 121);
+  }
+  
+  .texto_banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
+  }
+  
+  .texto_banner h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+  }
+  
+  .secao_nossos_sabores {
+    width: 100%;
+    display: flex;
+
+    padding: 20px;
+    gap: 20px;
+
+    position: relative;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+  
+  .img_card {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .container_card {
+    max-width: 1024px;
+    
+    width: 300px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 15px 2px #d9dde1;
+  }
+  
+  .container_card h3 {
+    font-size: 18px;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .container_card p {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  @media (max-width: 768px){
+    .texto_banner h1 {
+      font-size: 60px;
+    }
+  
+    .secao_nossos_sabores {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img_card {
+      width: 100%;
+    }
+  
+    .container_card {
+      width: 100%;
+      padding: 100px 20px;
+    }
+
+  }
+  
+  @media (max-width: 425px){
+    .texto_banner h1 {
+      font-size: 40px;
+    }
+  
+    .secao_banner {
+      background-size: 400px;
+    }
+  }
