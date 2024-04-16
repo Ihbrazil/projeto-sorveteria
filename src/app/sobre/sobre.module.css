@@ -26,7 +26,7 @@
   }
   
   .secao_banner_sobre div h1 {
-    color: white;
+    color: #ffffff;
     font-size: 100px;
     text-shadow: 3px 5px 2px #474747;
     text-align: center;
@@ -51,18 +51,21 @@
   
   .secao_sobre_nos h2{
     font-size: 32px;
+    color:#000000;
     line-height: 26px;
     text-align: center;
   }
   
   .secao_sobre_nos span {
     font-size: 20px;
+    color: #000000;
     font-style: italic;
     font-weight: 600;
     text-align: center;
   }
   
   .secao_sobre_nos p {
+    color: #000000;
     text-align: center;
     line-height: 26px;
   }
@@ -77,6 +80,8 @@
     object-fit: cover;
   }
   
+  /*--------Responsividade do projeto---------*/
+
   @media (max-width: 768px) {
     .secao_banner_sobre div h1 {
       font-size: 60px;

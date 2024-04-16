@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: rgb(249, 219, 121);
+    background-color: #f9db79;
   }
   
   .topo_container div {
@@ -33,10 +33,12 @@
   .link_topo {
     font-size: 18px;
     font-weight: 600;
-    color: black;
+    color: #000000;
     text-decoration: none;
   }
   
+  /*--------Responsividade do projeto---------*/
+
   @media (max-width: 768px){
     .topo_container div{
       flex-direction: column;
