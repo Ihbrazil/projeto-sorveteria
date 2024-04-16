@@ -52,18 +52,18 @@ export default function Sabores() {
           </div>
 
           <div className={estilos.container_card}>
-            <Image className={estilos.img_card} src={image5} alt="sorvetes diversos" />
-            <h3>Sorvete de Oreo</h3>
+            <Image className={estilos.img_card} src={image5} alt="Sorvete de Morango" />
+            <h3>Sorvete de Morango</h3>
             <p>
-              Delicioso sorvete sabor Oreo. Uma explosão de sabor.
+            Sorvete de Morango gourmet. Tradicional e saboroso.
             </p>
           </div>
 
           <div className={estilos.container_card}>
-            <Image className={estilos.img_card} src={image6} alt="sorvetes diversos" />
-            <h3>Sorvete de Oreo</h3>
+            <Image className={estilos.img_card} src={image6} alt="Sorvete de Limão Siciliano" />
+            <h3>Sorvete de Limão Siciliano</h3>
             <p>
-              Delicioso sorvete sabor Oreo. Uma explosão de sabor.
+              O incrivel sorvete gourmet de limão siciliano vai te encantar.
             </p>
           </div>
         </section>
