@@ -1,3 +1,10 @@
+A proposta desse projeto é criar um site para uma sorveteria em React, para que você coloque em prática os seguintes conceitos:
+
+Criar SPAs;
+Utilizar o recurso App Router para criar uma aplicação React com múltiplas páginas;
+Implementar a navegação entre páginas em uma aplicação React.
+Esse projeto se destaca pelo uso do recurso App Router que nos permite criar páginas em uma aplicação React e também a implementação de navegação entre essas páginas.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
